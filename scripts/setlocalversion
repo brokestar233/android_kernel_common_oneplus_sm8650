@@ -170,4 +170,5 @@ fi
 #	res="$res-ab${BUILD_NUMBER}"
 #fi
 
-echo "$res"
+#echo "$res"
+echo "-OKI-Brokestar${LOCALVERSION}"

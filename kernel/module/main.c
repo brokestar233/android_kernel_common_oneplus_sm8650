@@ -2828,9 +2828,6 @@ static int load_module(struct load_info *info, const char __user *uargs,
 	/****************************************************************/
 
 skip_intercept:
-	err = early_mod_check(info, flags);
-	if (err)
-		goto free_copy;
 
 	/*
 	 * Now that we know we have the correct module name, check
